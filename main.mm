@@ -1468,6 +1468,9 @@ int main(int argc, char **argv, char **envp) {
                 else if ([[NSFileManager defaultManager] fileExistsAtPath:@"/System/Library/Caches/com.apple.dyld/dyld_shared_cache_arm64"]){
                     filename="/System/Library/Caches/com.apple.dyld/dyld_shared_cache_arm64";
                 }
+                else if ([[NSFileManager defaultManager] fileExistsAtPath:@"/System/Library/Caches/com.apple.dyld/dyld_shared_cache_arm64e"]){
+                    filename="/System/Library/Caches/com.apple.dyld/dyld_shared_cache_arm64e";
+                }
                 else if([[NSFileManager defaultManager] fileExistsAtPath:@"/System/Library/Caches/com.apple.dyld/dyld_shared_cache_armv7s"]){
                     filename="/System/Library/Caches/com.apple.dyld/dyld_shared_cache_armv7s";
                 }
