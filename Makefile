@@ -3,7 +3,7 @@ GO_EASY_ON_ME=1
 #TARGET = macosx
 TARGET = iphone:clang:11.2:9.3
 export SDKVERSION=11.2
-export ARCHS= arm64e
+export ARCHS= arm64 arm64e
 #export ARCHS=x86_64 
 include $(THEOS)/makefiles/common.mk
 TOOL_NAME = classdump-dyld

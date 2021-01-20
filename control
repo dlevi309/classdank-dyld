@@ -1,6 +1,6 @@
 Package: daniel.classdump-dyld
 Name: classdump-dyld
-Version: 1.5
+Version: 1.6
 Architecture: iphoneos-arm
 Description: Class-dump most images on device or shared cache
 Author: Elias Limneos <limneoselias@gmail.com>
