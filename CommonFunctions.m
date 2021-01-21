@@ -415,6 +415,7 @@ NSMutableArray * generateForbiddenPathsArray(BOOL isRecursive){
     [forbiddenPaths addObject:@"AppPredictionInternal.framework"];
     [forbiddenPaths addObject:@"NumbersQuicklook.framework"];
     [forbiddenPaths addObject:@"TSText.framework"];
+    [forbiddenPaths addObject:@"CameraEffectsKit.framework"];
     return forbiddenPaths;
 }
 
